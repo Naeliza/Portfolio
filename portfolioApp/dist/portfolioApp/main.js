@@ -414,7 +414,7 @@ class PortfolioComponent {
     constructor() { }
 }
 PortfolioComponent.ɵfac = function PortfolioComponent_Factory(t) { return new (t || PortfolioComponent)(); };
-PortfolioComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PortfolioComponent, selectors: [["app-portfolio"]], decls: 27, vars: 0, consts: [["id", "portfolio", 1, "flat-case-study", "s3", "banner-section", "s4"], [1, "container"], [1, "d-md-flex"], ["data-wow-delay", "0.5s", 1, "col-left", "animate-element", "wow", "delay5", "fadeInDown"], [1, "image-link", "t2"], [1, "featured-post"], ["href", "https://github.com/Naeliza/Naeliza-s-Hospital-system"], ["src", "assets/images/section/Naeliza's Hospital center.JPG", "alt", "images"], [1, "fl-btn", "text-center"], ["data-desktop", "0", "data-mobile", "100", "data-smobile", "100", 1, "flat-spacer"], ["data-wow-delay", "0.5s", 1, "col-right", "animate-element", "wow", "delay5", "fadeInUp"], [1, "flat-title", "t2", "mg-b60"], [1, "sub-title", "mg-b13"], [1, "title-section", "color-d11", "mg-b20"], [1, "color-d13"], [1, "pd-right"], ["href", "#"], ["src", "images/section/54.jpg", "alt", "images"], ["src", "images/section/55.jpg", "alt", "images"]], template: function PortfolioComponent_Template(rf, ctx) { if (rf & 1) {
+PortfolioComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PortfolioComponent, selectors: [["app-portfolio"]], decls: 27, vars: 0, consts: [["id", "portfolio", 1, "flat-case-study", "s3", "banner-section", "s4"], [1, "container"], [1, "d-md-flex"], ["data-wow-delay", "0.5s", 1, "col-left", "animate-element", "wow", "delay5", "fadeInDown"], [1, "image-link", "t2"], [1, "featured-post"], ["href", "https://github.com/Samexao-Devs/AlwaysVacant"], ["src", "assets/images/section/Always Vacant.JPG", "alt", "images", 2, "border-radius", "20px"], [1, "fl-btn", "text-center"], ["data-desktop", "0", "data-mobile", "100", "data-smobile", "100", 1, "flat-spacer"], ["data-wow-delay", "0.5s", 1, "col-right", "animate-element", "wow", "delay5", "fadeInUp"], [1, "flat-title", "t2", "mg-b60"], [1, "sub-title", "mg-b13"], [1, "title-section", "color-d11", "mg-b20"], [1, "color-d13"], [1, "pd-right"], ["href", "https://github.com/Naeliza/Naeliza-s-Hospital-system"], ["src", "assets/images/section/Naeliza's Hospital center.JPG", "alt", "images", 2, "border-radius", "20px"]], template: function PortfolioComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -443,15 +443,15 @@ PortfolioComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 15);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "a", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "img", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "a", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "img", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "a", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "img", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "img", 17);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
