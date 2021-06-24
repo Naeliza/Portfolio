@@ -367,7 +367,7 @@ class BannerComponent {
     constructor() { }
 }
 BannerComponent.ɵfac = function BannerComponent_Factory(t) { return new (t || BannerComponent)(); };
-BannerComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BannerComponent, selectors: [["app-banner"]], decls: 15, vars: 0, consts: [[1, "container"], [1, "content-text", "position-relative"], ["data-wow-delay", "0.3s", 1, "animate-element", "wow", "delay5", "fadeInDown"], [1, "tag", "color-d1", "lt-sp53", "mg-b34"], [1, "cd-headline", "clip", "is-full-width", "title", "color-d11", "mg-b41"], [1, "cd-words-wrapper", "color-d6"], [1, "is-visible"], [1, "featured-post", "border-corner-bl"], ["src", "../../../assets/images/section/nao1.JPG", "alt", "images"]], template: function BannerComponent_Template(rf, ctx) { if (rf & 1) {
+BannerComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BannerComponent, selectors: [["app-banner"]], decls: 15, vars: 0, consts: [[1, "container"], [1, "content-text", "position-relative"], ["data-wow-delay", "0.3s", 1, "animate-element", "wow", "delay5", "fadeInDown"], [1, "tag", "color-d1", "lt-sp53", "mg-b34"], [1, "cd-headline", "clip", "is-full-width", "title", "color-d11", "mg-b41"], [1, "pr-2"], [1, "cd-words-wrapper", "color-d6"], [1, "is-visible"], [1, "featured-post", "border-corner-bl"], ["src", "../../../assets/images/section/nao1.JPG", "alt", "images"]], template: function BannerComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -375,12 +375,12 @@ BannerComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "Frontend Developer");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h1", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "span");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "span", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Hello, I'm ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "span", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "b", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Naomi!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "span", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "b", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " Naomi!");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "b");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, " Nae!");
@@ -389,8 +389,8 @@ BannerComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "img", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "img", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, encapsulation: 2 });
@@ -673,7 +673,7 @@ class FooterComponent {
     }
 }
 FooterComponent.ɵfac = function FooterComponent_Factory(t) { return new (t || FooterComponent)(); };
-FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 22, vars: 4, consts: [["id", "footer", 1, "footer", "footer-s4"], [1, "container"], ["id", "bottom", 1, "bottom-s3"], [1, "row"], [1, "col-lg-4"], [1, "copyright", "lt-sp02"], [1, "col-lg-6"], [1, "title", "color-d11"], ["href", "mailto:lizcespedes0326@gmail.com", 1, "email", "color-s2", "color-d15"], [1, "socials-list-hd", "s3", "hv2"], ["href", "https://www.linkedin.com/in/naeliza/", 1, "bg-s1"], ["aria-hidden", "true", 1, "fa", "fa-linkedin"], ["href", "mailto:lizcespedes0326@gmail.com", 1, "bg-s3"], ["aria-hidden", "true", 1, "fa", "fa-google"], ["href", "https://github.com/Naeliza", 1, "bg-s4"], ["aria-hidden", "true", 1, "fa", "fa-github"], [1, "col-lg-2"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
+FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 22, vars: 4, consts: [["id", "footer", 1, "footer", "footer-s4"], [1, "container"], ["id", "bottom", 1, "bottom-s3"], [1, "row"], [1, "col-lg-4"], [1, "copyright", "lt-sp02"], [1, "col-lg-6", "copyright"], [1, "title", "color-d11"], ["href", "mailto:lizcespedes0326@gmail.com", 1, "email", "color-s2", "color-d15"], [1, "socials-list-hd", "s3", "hv2", "col-lg-2", "copyright"], ["href", "https://www.linkedin.com/in/naeliza/", 1, "bg-s1"], ["aria-hidden", "true", 1, "fa", "fa-linkedin"], ["href", "mailto:lizcespedes0326@gmail.com", 1, "bg-s3"], ["aria-hidden", "true", 1, "fa", "fa-google"], ["href", "https://github.com/Naeliza", 1, "bg-s4"], ["aria-hidden", "true", 1, "fa", "fa-github"], [1, "col-lg-2"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "footer", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
