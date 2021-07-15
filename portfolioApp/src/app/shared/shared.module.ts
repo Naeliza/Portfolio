@@ -6,7 +6,6 @@ import { TreeComponent } from './tree/tree.component';
 import { LinkedinComponent } from './linkedin/linkedin.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { AnimatedBackgroundComponent } from './animated-background/animated-background.component';
 import { LoadingAnimationComponent } from './loading-animation/loading-animation.component';
 
 
@@ -19,7 +18,6 @@ import { LoadingAnimationComponent } from './loading-animation/loading-animation
     LinkedinComponent,
     BannerComponent,
     TreeComponent,
-    AnimatedBackgroundComponent,
     LoadingAnimationComponent
 
   ],
@@ -30,7 +28,6 @@ import { LoadingAnimationComponent } from './loading-animation/loading-animation
     LinkedinComponent,
     BannerComponent,
     TreeComponent,
-    AnimatedBackgroundComponent,
     LoadingAnimationComponent,
     ],
   imports: [
