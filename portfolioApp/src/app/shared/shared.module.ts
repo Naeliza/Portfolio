@@ -6,6 +6,8 @@ import { TreeComponent } from './tree/tree.component';
 import { LinkedinComponent } from './linkedin/linkedin.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { AnimatedBackgroundComponent } from './animated-background/animated-background.component';
+import { LoadingAnimationComponent } from './loading-animation/loading-animation.component';
 
 
 
@@ -16,7 +18,9 @@ import { FooterComponent } from './footer/footer.component';
     ContactComponent,
     LinkedinComponent,
     BannerComponent,
-    TreeComponent
+    TreeComponent,
+    AnimatedBackgroundComponent,
+    LoadingAnimationComponent
 
   ],
   exports: [
@@ -25,7 +29,9 @@ import { FooterComponent } from './footer/footer.component';
     ContactComponent,
     LinkedinComponent,
     BannerComponent,
-    TreeComponent
+    TreeComponent,
+    AnimatedBackgroundComponent,
+    LoadingAnimationComponent,
     ],
   imports: [
     CommonModule
