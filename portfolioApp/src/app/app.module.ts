@@ -7,13 +7,21 @@ import { AboutMeComponent } from './main/about-me/about-me.component';
 import { HomeSubpageComponent } from './main/home-subpage/home-subpage.component';
 
 import { SharedModule } from './shared/shared.module';
+import { InfoListComponent } from './main/info-list/info-list.component';
+import { ResumeComponent } from './main/resume/resume.component';
+import { EducationComponent } from './main/education/education.component';
+import { KnowledgeComponent } from './main/knowledge/knowledge.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutMeComponent,
-    HomeSubpageComponent
+    HomeSubpageComponent,
+    InfoListComponent,
+    ResumeComponent,
+    EducationComponent,
+    KnowledgeComponent
   ],
   imports: [
     BrowserModule,
