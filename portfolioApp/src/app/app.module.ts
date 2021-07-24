@@ -11,6 +11,8 @@ import { InfoListComponent } from './main/info-list/info-list.component';
 import { ResumeComponent } from './main/resume/resume.component';
 import { EducationComponent } from './main/education/education.component';
 import { KnowledgeComponent } from './main/knowledge/knowledge.component';
+import { SkillsComponent } from './main/skills/skills.component';
+import { CertificatesComponent } from './main/certificates/certificates.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { KnowledgeComponent } from './main/knowledge/knowledge.component';
     InfoListComponent,
     ResumeComponent,
     EducationComponent,
-    KnowledgeComponent
+    KnowledgeComponent,
+    SkillsComponent,
+    CertificatesComponent
   ],
   imports: [
     BrowserModule,
