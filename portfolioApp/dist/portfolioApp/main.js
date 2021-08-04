@@ -735,7 +735,7 @@ class AboutMeComponent {
     constructor() { }
 }
 AboutMeComponent.ɵfac = function AboutMeComponent_Factory(t) { return new (t || AboutMeComponent)(); };
-AboutMeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutMeComponent, selectors: [["app-about-me"]], decls: 34, vars: 0, consts: [["id", "about", 1, "about-me", "t2", "s3", "shape-am", "position-relative"], [1, "section-icons"], [1, "shape-one"], ["src", "assets/images/testimonial/01.png", "alt", "images"], [1, "shape-two"], ["src", "assets/images/testimonial/02.png", "alt", "images"], [1, "shape-three"], ["src", "assets/images/testimonial/03.png", "alt", "images"], [1, "shape-four"], ["src", "assets/images/testimonial/04.png", "alt", "images"], [1, "shape-five"], ["src", "assets/images/testimonial/05.png", "alt", "images"], [1, "shape-six"], ["src", "assets/images/testimonial/06.png", "alt", "images"], [1, "container"], [1, "row", "position-relative"], [1, "col-lg-7", "animate-element", "wow", "delay5", "fadeInDown"], [1, "flat-title", "t2"], [1, "sub-title", "mg-b22"], [1, "title-section", "color-d11", "mg-b41"], [1, "description"], [1, "color-d13", "lt-sp01", "text-left"], [1, "fact"], ["data-wow-delay", "0.5s", 1, "featured-post", "animate-element", "wow", "delay5", "fadeInUp"], ["src", "assets/images/section/51.png", "alt", "images"]], template: function AboutMeComponent_Template(rf, ctx) { if (rf & 1) {
+AboutMeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutMeComponent, selectors: [["app-about-me"]], decls: 30, vars: 0, consts: [["id", "about", 1, "about-me", "t2", "s3", "shape-am", "position-relative"], [1, "section-icons"], [1, "shape-one"], ["src", "assets/images/testimonial/01.png", "alt", "images"], [1, "shape-two"], ["src", "assets/images/testimonial/02.png", "alt", "images"], [1, "shape-three"], ["src", "assets/images/testimonial/03.png", "alt", "images"], [1, "shape-four"], ["src", "assets/images/testimonial/04.png", "alt", "images"], [1, "shape-five"], ["src", "assets/images/testimonial/05.png", "alt", "images"], [1, "shape-six"], ["src", "assets/images/testimonial/06.png", "alt", "images"], [1, "container"], [1, "row", "position-relative"], [1, "col-lg-7", "animate-element", "wow", "delay5", "fadeInDown"], [1, "flat-title", "t2"], [1, "sub-title", "mg-b22"], [1, "title-section", "color-d11", "mg-b41"], [1, "description"], [1, "color-d13", "lt-sp01", "text-left"], [1, "fact"], ["data-wow-delay", "0.5s", 1, "featured-post", "animate-element", "wow", "delay5", "fadeInUp"], ["src", "assets/images/section/51.png", "alt", "images"]], template: function AboutMeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -769,22 +769,17 @@ AboutMeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 20);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "p", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, " I'm a student of software development at ITLA, and being honest this is the best decision I have ever taken I love what I develop and love software, in general, I have no words to describe it is just different, the area that I enjoy the most to develop is Frontend. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, " I am an enthusiastic, responsible programmer and willing to learn more every day. I have the desire to belong to a team to contribute all my knowledge. I love taking advantage of every moment and space available to continue increasing my learning. I seek to improve my way of working as a team and solve problems with the correct use of the software. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "p", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, " Spanish Translation:");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](28, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, " Soy una estudiante de Tecnolog\u00EDa en Desarrollo de Software en el Instituto Tecnol\u00F3gico de las Am\u00E9ricas, ITLA. Para ser honesta estudiar desarrollo de software es una de las mejores decisiones que he tomado, puesto que amo lo que desarrollo y el software en general. Si me preguntaran el \u00E1rea de desarrollo web que m\u00E1s me gusta entre el Frontend y el Backend la respuesta ser\u00EDa el Frontend. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "p", 21);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "app-tree");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "app-tree");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "div", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "img", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](29, "img", 24);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
