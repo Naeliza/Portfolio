@@ -3,29 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PortfolioComponent } from './main/portfolio/portfolio.component';
+import { EducationComponent } from './main/education/education.component';
 import { AboutMeComponent } from './main/about-me/about-me.component';
-import { HomeSubpageComponent } from './main/home-subpage/home-subpage.component';
 
 import { SharedModule } from './shared/shared.module';
-import { InfoListComponent } from './main/info-list/info-list.component';
-import { ResumeComponent } from './main/resume/resume.component';
-import { EducationComponent } from './main/education/education.component';
-import { KnowledgeComponent } from './main/knowledge/knowledge.component';
-import { SkillsComponent } from './main/skills/skills.component';
-import { CertificatesComponent } from './main/certificates/certificates.component';
-
 
 @NgModule({
   declarations: [
     AppComponent,
-    AboutMeComponent,
-    HomeSubpageComponent,
-    InfoListComponent,
-    ResumeComponent,
+    PortfolioComponent,
     EducationComponent,
-    KnowledgeComponent,
-    SkillsComponent,
-    CertificatesComponent
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,

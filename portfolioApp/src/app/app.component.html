@@ -1,55 +1,46 @@
-<body>
-
-  <!-- Animated Background -->
-  <div class="lm-animated-bg" style="background-image: url(../assets/img/main_bg.png);"></div>
-  <!-- /Animated Background -->
-
-  <!-- Loading animation -->
-  <app-loading-animation></app-loading-animation>
-  <!-- /Loading animation -->
-
-  <div class="page">
-    <div class="page-content">
-
-      <!-- Header -->
-      <header id="site_header" class="header mobile-menu-hide">
-        <app-header></app-header>
-      </header>
-      <!-- /Header -->
-
-      <!-- Mobile Navigation -->
-      <div class="menu-toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <!-- End of Mobile Navigation -->
-
-      <!-- Arrows Nav -->
-      <div class="lmpixels-arrows-nav">
-        <div class="lmpixels-arrow-right"><i class="lnr lnr-chevron-right"></i></div>
-        <div class="lmpixels-arrow-left"><i class="lnr lnr-chevron-left"></i></div>
-      </div>
-      <!--End of Arrows Nav -->
-
-      <div class="content-area">
-        <div class="animated-sections">
-
-          <!--  Home Subpage -->
-          <app-home-subpage></app-home-subpage>
-          <!-- End of Home Subpage -->
-
-          <!--  about me Subpage -->
-          <app-about-me></app-about-me>
-          <!-- End of about me Subpage -->
-
-          <!-- Resume Subpage -->
-          <app-resume></app-resume>
-          <!-- End of Resume Subpage -->
-
-        </div>
-      </div>
-    </div>
+<body class="counter-scroll background-wrap-home4 fixed counter-scroll home4 has-one-page">
+  <div id="loading-overlay">
+    <div class="loader"></div>
   </div>
+  <div id="mobile-menu-overlay"></div>
+  <header id="header" class="header header-style4 has-menu-model">
+    <app-header></app-header>
+  </header>
+  <!-- header -->
 
+  <div id="content" class="content">
+    <div class="homepage-personal">
+      <section class="banner-section s4 two-home" id="home">
+        <app-banner></app-banner>
+        <app-linkedin></app-linkedin>
+      </section><!-- banner-section -->
+
+
+      <app-about-me></app-about-me>
+
+      <!-- about-me -->
+
+
+      <app-contact></app-contact>
+      <!-- get-project -->
+
+
+      <app-education></app-education>
+      <!-- flat-education -->
+
+
+      <div id="footer-widget" class="border-bottom-s1 position-relative">
+        <h3 class="widget-title larger lt-sp06 text-white text-center pb-5"> </h3>
+      </div>
+      <app-portfolio></app-portfolio>
+      <!-- flat-case-study -->
+
+      <div class="tf-modal-content justify-content-end">
+        <app-footer></app-footer>
+        <!-- footer -->
+      </div>
+
+    </div>
+  </div><!-- content -->
+  <a id="scroll-top"></a>
 </body>

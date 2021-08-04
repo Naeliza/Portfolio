@@ -9,7 +9,6 @@ export class HeaderComponent  {
 
   constructor() { }
 
-  year: Date = new Date;
   
 
 }
